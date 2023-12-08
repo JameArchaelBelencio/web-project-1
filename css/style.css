@@ -1,0 +1,63 @@
+html
+{ scroll-behavior: smooth; }
+
+body
+{ background-image: url('https://i.ibb.co/s1CwtZr/background.webp'); background-repeat: no-repeat, repeat; background-size: cover; }
+
+.content
+{ color: white; font-family: arial; margin: auto; max-width: 100%; text-align: center; width: 1750px; }
+
+
+
+a
+{ color: inherit; text-decoration: none; }
+
+header, nav, section, footer, main
+{ background-color: darkblue; border: ridge 5px lightgray; border-radius: 30px; margin-bottom: 1%; opacity: 80%; }
+
+section, main, aside
+{ float: left; }
+
+
+
+header
+{ font-size: xx-large; text-transform: uppercase; }
+
+
+
+nav
+{ font-size: xx-large; font-weight: bolder; text-transform: uppercase; }
+
+.navbtn, .asbtn
+{ background-color: lightgray; color: black; font-size: x-large; font-weight: bold; padding: 20px; text-transform: uppercase; transition: 500ms; }
+
+.navbtn:hover, .asbtn:hover
+{ letter-spacing: 3px; transition: 300ms; }
+
+.navbtn:active, .asbtn:active
+{ background-color: white; color: black; transition: 200ms; }
+
+
+
+section, main
+{ margin-right: 1%; width: 80.8%; }
+
+p
+{ font-size: xx-large; }
+
+.audioimg
+{ float: left; margin-left: 5%; }
+
+audio
+{ width: 50%; }
+
+article
+{ font-size: x-large; margin-left: 3%; margin-right: 3%; }
+
+aside
+{ background-color: darkblue; border: ridge 5px lightgray; border-radius: 30px; opacity: 80%; position: sticky; top: 2%; width: 17%; }
+
+
+
+footer
+{ clear: both; font-size: xx-large; }
